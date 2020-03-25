@@ -1,3 +1,7 @@
+layout: page
+title: "Exporting data from MySQL command line (on Mac)"
+date: 2019-01-10 10:23:45 -0000
+
 Exporting data from MySQL command line (on Mac)
 
 How do you proceed when you get the following error? 
