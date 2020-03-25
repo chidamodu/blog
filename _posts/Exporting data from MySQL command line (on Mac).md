@@ -45,6 +45,7 @@ open -a TextEdit /usr/local/etc/my.cnf
 The following details can be seen in the my.cnf file:
 # Default Homebrew MySQL server config
 [mysqld]
+
 # Only allow connections from localhost
 bind-address = some value (the value doesn’t have to be same as one might see in many blogs/posts)
 
@@ -54,6 +55,7 @@ secure_file_priv=""
 After altering, the file looked like:
 # Default Homebrew MySQL server config
 [mysqld]
+
 # Only allow connections from localhost
 bind-address = some value
 secure_file_priv=""
