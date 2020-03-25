@@ -114,7 +114,7 @@ Learnings:
 brew list mysql doesn’t list all my.cnf paths
 But locate my.cnf does list all my.cnf paths
 
-
+Email: chidambaram.spv@gmail.com
 
 
 
