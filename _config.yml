@@ -1,5 +1,5 @@
 # SITE CONFIGURATION
-title: **An intentional techie's blog** # your site title
+title: An intentional techie's blog # your site title
 author: GitHub User # You :P
 description: > # Meta description of Homepage
   "I created this site with a goal to provide clarity on data science techniques and machine learning concepts. After 5 years 
@@ -7,11 +7,11 @@ description: > # Meta description of Homepage
   as you can imagine. So this site is also to remind me how far I have come and how far I should push myself to create new, 
   awesome products. Hope you will enjoy reading this intentional techie's blog :)"
 baseurl: "/blog" # the subpath of your site, e.g. /blog
-url: "https://janczizikow.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://chidamodu.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 
 # SEO PLUGIN
 social:
-  name: Your Name
+  name: Chidam
   links:
 #     - https://twitter.com/BenBalter
 #     - https://www.facebook.com/ben.balter
@@ -27,7 +27,7 @@ navigation: # Navigation links
   - {name: 'Contact', link: '/contact'}
 
 tagline: >
-  Modern Jekyll theme focused on speed performance &amp; SEO best practices
+  Let's travel data and machine science world together!
 
 hero_img: posts/sleek_lg.jpg # Main background image: use the path from /assets/img/ => This will output /assets/img/posts/sleek_lg.jpg
 
