@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 layout: page
 title: "Exporting data from MySQL command line (on Mac)"
