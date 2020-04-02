@@ -3,7 +3,7 @@ published: true
 ---
 layout: page
 title: "Exporting data from MySQL command line (on Mac)"
-date: 2019-01-10
+date: 2019-01-10 11:45:12
 
 Exporting data from MySQL command line (on Mac)
 
