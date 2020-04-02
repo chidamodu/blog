@@ -118,3 +118,5 @@ Select @@global.secure_file_priv it listed Null as its value and that was the in
 ## Learnings:
 brew list mysql doesn’t list all my.cnf paths
 But locate my.cnf does list all my.cnf paths
+
+Email: chidambaram.spv@gmail.com
