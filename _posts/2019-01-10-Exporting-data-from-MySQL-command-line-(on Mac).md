@@ -41,20 +41,17 @@ There were two files that looked like appropriate ones as the rest of them were 
 Of the two appropriate ones that started off like:
 - /usr/local/Cellar/mysql
 - /usr/local/etc/my.cnf (Note: this is the entire path address)
+**/usr/local/etc/my.cnf** is the configuration file.
 
-  **/usr/local/etc/my.cnf** is the configuration file. The next step is to figure out a way to open this file from bash (as I do not use mysql workbench). I used the following command to open the file in Text Editor: 
-  **open -a TextEdit /usr/local/etc/my.cnf**
+The next step is to figure out a way to open this file from bash (as I do not use mysql workbench). I used the following command to open the file in Text Editor: **open -a TextEdit /usr/local/etc/my.cnf**
 
 The following details can be seen in the my.cnf file:
-# Default Homebrew MySQL server config
-[mysqld]
+**Default Homebrew MySQL server config [mysqld]**
 
-# Only allow connections from localhost
+**Only allow connections from localhost**
 bind-address = some value (the value doesn’t have to be same as one might see in many blogs/posts)
 
-After bind-address, I set the variable to an empty string:
-**secure_file_priv=""**
-
+After bind-address, I set the variable to an empty string: **secure_file_priv=""**
 - After altering, the file looked like:
 	Default Homebrew MySQL server config [mysqld]   
 - Only allow connections from localhost
