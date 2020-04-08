@@ -58,9 +58,7 @@ After bind-address, I set the variable to an empty string: **secure_file_priv=""
 	bind-address = some value
 	secure_file_priv=""
 
-I saved and restarted mysql from bash for the change to take effect using the command:
-
-**mysql.server restart
+I saved and restarted mysql from bash for the change to take effect using the command: **mysql.server restart**
 
 **While restarting one will see:
 **Mysql shutdown
