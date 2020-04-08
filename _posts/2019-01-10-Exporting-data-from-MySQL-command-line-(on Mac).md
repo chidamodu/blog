@@ -60,9 +60,9 @@ After bind-address, I set the variable to an empty string: **secure_file_priv=""
 
 I saved and restarted mysql from bash for the change to take effect using the command:
 
-> **mysql.server restart
+**mysql.server restart
 
-> **While restarting one will see:
+**While restarting one will see:
 **Mysql shutdown
 …
 Success!
@@ -81,9 +81,9 @@ And the value of the variable was set empty as intended.
 I exported the result of a query into a csv file using the command:
 
 > SELECT * FROM table_name INTO OUTFILE '/Users/user_name/whichever_folder or even Desktop/file_name.csv'
-FIELDS TERMINATED BY ','
-ENCLOSED BY '"'
-LINES TERMINATED BY '\n';
+> FIELDS TERMINATED BY ','
+> ENCLOSED BY '"'
+> LINES TERMINATED BY '\n';
 
 The usual mysql message, when a query gets executed, popped up and I found the exported file in the folder I exported it to.
 
@@ -95,7 +95,7 @@ It listed the file path, one of the two file paths mentioned above and that star
 usr/local/Cellar/mysql
 
 I opened the file in Text Editor and set the variable: secure_file_priv=”” and then restarted mysql. But nothing changed. How did I know? When I checked using the command in the mysql console:
-Select @@global.secure_file_priv it listed Null as its value and that was the initial value that was set to the variable.
+Select @@global.secure_file_priv, it listed Null as its value and that was the initial value that was set to the variable.
 
 > @@global.secure_file_priv: Null
 
