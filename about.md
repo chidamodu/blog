@@ -4,7 +4,6 @@ title: About Me
 permalink: /about/
 published: true
 ---
-![Screen Shot 2020-03-17 at 10.13.20 PM.png]({{site.baseurl}}/Screen Shot 2020-03-17 at 10.13.20 PM.png)
 
 I created this blog with a goal to provide clarity on data science techniques and machine learning concepts. After 5 years into being a writer/marketing analyst/program manager, I got back to my forgotten love, i.e., coding. It wasn't an easy transition as you can imagine. So this site is also to remind me how far I have come and how far I should push myself to create new, awesome products. I have always loved writing. In fact, I ought to be a travel writer at some point. 
 
