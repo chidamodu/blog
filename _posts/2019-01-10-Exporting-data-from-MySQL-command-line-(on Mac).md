@@ -4,7 +4,7 @@ published: true
 
 ## How do you proceed when you get the following error?
 
-> ERROR 1290 (HY000): The MySQL server is running with the --secure-file-priv option so it cannot execute this statement
+**ERROR 1290 (HY000): The MySQL server is running with the --secure-file-priv option so it cannot execute this statement**
 
 I received the above error when I tried to convert a query result into a csv file. I spent hours on solving the issue, so thought would write about what it means and how to solve it. My mac's specification/server setting:
 - macOS High Sierra – version 10.13.5
