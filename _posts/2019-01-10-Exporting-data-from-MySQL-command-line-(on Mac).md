@@ -1,9 +1,6 @@
 ---
 published: true
 ---
-layout: page
-title: "Exporting data from MySQL command line (on Mac)"
-date: 2019-01-10
 
 ## How do you proceed when you get the following error?
 
@@ -59,9 +56,7 @@ After bind-address, I set the variable to an empty string:
 **secure_file_priv=""**
 
 - After altering, the file looked like:
-	Default Homebrew MySQL server config
-	[mysqld]
-
+	Default Homebrew MySQL server config [mysqld]   
 - Only allow connections from localhost
 	bind-address = some value
 	secure_file_priv=""
@@ -108,4 +103,5 @@ Select @@global.secure_file_priv it listed Null as its value and that was the in
 > @@global.secure_file_priv: Null
 
 ## Learnings:
-**brew list mysql**: doesn’t list all my.cnf paths. But **locate my.cnf** does list all my.cnf paths.
+- **brew list mysql**: doesn’t list all my.cnf paths. 
+- But **locate my.cnf** does list all my.cnf paths.
