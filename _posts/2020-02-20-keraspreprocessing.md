@@ -39,12 +39,10 @@ To drive the point home, we first initialize the tokenizer, fit it on sentences 
 
 <img src="http://chidamodu.github.io/blog/images//tokenizer_pic2.png">
 
-
 OOV_token: What happens when we have words in test data that are not seen by the trained model? Well, the unseen words are omitted by the trained model while making inference. In case of numerous unseen words present in the test data, omitting those words result in a huge loss of information. Let’s check the simple illustration below:
 
 
 <img src="http://chidamodu.github.io/blog/images//tokenizer_pic 3.png">
-
 
 Part of the word_index dictionary that was used to fit the trained model for reference:
 
