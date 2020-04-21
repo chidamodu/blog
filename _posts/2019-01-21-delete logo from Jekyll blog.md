@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 ## To delete the logo from your blog on Jekyl
 
