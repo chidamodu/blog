@@ -78,24 +78,3 @@ Let's now transform the test data by using the function transformfunc on the tes
 -We can evaluate the predictions by using the **evaluator** method on the **predicted_outcome**:
 
 	evaluator.evaluate(predicted_outcome)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
