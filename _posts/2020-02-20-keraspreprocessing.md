@@ -23,7 +23,7 @@ Let’s check out a simple example that demonstrates word_index of the tokenizer
 sentences=['I love swimming', 'I learnt to speak french when I visited France a couple of years ago']
 
 
-
+<img src="{{/chidamodu}}/images/tokenizer_1.pdf">
 
 
 P.S.: Tokenizer strips punctuation out. It can be seen in the above image that **'I'** is represented as **'i'** and so is **'F'** as **'f'** in France in the second sentence.
