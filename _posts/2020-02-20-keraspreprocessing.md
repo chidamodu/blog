@@ -74,5 +74,3 @@ The test_sequence now comprises values for all the data present. Thanks to oov_t
    
 
 <img src="http://chidamodu.github.io/blog/images//tokenizer_7.png">
-  
-  
