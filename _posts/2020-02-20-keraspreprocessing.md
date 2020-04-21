@@ -22,7 +22,7 @@ Example: **word_index=tokenizer.word_index**
 Let’s check out a simple example that demonstrates word_index of the tokenizer fitted on the given input sentences here: 
 sentences=['I love swimming', 'I learnt to speak french when I visited France a couple of years ago']
 
-https://github.com/chidamodu/blog/blob/gh-pages/_posts/tokenizer.png
+![tokenizer_1]({{"/assests/imag/pics for tokenizer/tokenizer_1.pdf" | https://chidamodu.github.io/blog/}})
 
 P.S.: Tokenizer strips punctuation out. It can be seen in the above image that **'I'** is represented as **'i'** and so is **'F'** as **'f'** in France in the second sentence.
 
