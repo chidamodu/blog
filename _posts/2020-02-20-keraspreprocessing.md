@@ -22,9 +22,7 @@ Example: **word_index=tokenizer.word_index**
 Let’s check out a simple example that demonstrates word_index of the tokenizer fitted on the given input sentences here: 
 sentences=['I love swimming', 'I learnt to speak french when I visited France a couple of years ago']
 
-
-![tokenizer.png]({{site.baseurl}}/_posts/tokenizer.png)
-
+https://github.com/chidamodu/blog/blob/gh-pages/_posts/tokenizer.png
 
 P.S.: Tokenizer strips punctuation out. It can be seen in the above image that **'I'** is represented as **'i'** and so is **'F'** as **'f'** in France in the second sentence.
 
@@ -36,22 +34,17 @@ sentences=['I love swimming', 'I learnt to speak french when I visited France a 
 
 To drive the point home, we first initialize the tokenizer, fit it on sentences (the input data), and finally convert the given sentences into a sequence of numbers using the fit_on_texts method of the tokenizer. Let’s check the concept just explained in the below illustration:
 
-
-![tokenizer_pic2.png]({{site.baseurl}}/_posts/tokenizer_pic2.png)
-
+https://github.com/chidamodu/blog/blob/gh-pages/_posts/tokenizer_pic2.png
 
 OOV_token: What happens when we have words in test data that are not seen by the trained model? Well, the unseen words are omitted by the trained model while making inference. In case of numerous unseen words present in the test data, omitting those words result in a huge loss of information. Let’s check the simple illustration below:
 
 
-![tokenizer_pic 3.png]({{site.baseurl}}/_posts/tokenizer_pic 3.png)
-
+https://github.com/chidamodu/blog/blob/gh-pages/_posts/tokenizer_pic%203.png
 
 
 Part of the word_index dictionary that was used to fit the trained model for reference:
 
-
-![tokenizer_pic 4.png]({{site.baseurl}}/_posts/tokenizer_pic 4.png)
-
+https://github.com/chidamodu/blog/blob/gh-pages/_posts/tokenizer_pic%204.png
 
 
 In the first sentence, the unseen words: **'really'**, **'my'**, and **'turtle'** are omitted because these words weren’t present in the word_index of the trained model. 
@@ -61,21 +54,16 @@ Luckily, the tokenizer has a property, oov_token to deal with it. OOV means “O
 
 Here the tokenizer is initiated with oov_token.
   
-
-![tokenizer_5.png]({{site.baseurl}}/_posts/tokenizer_5.png)
-
+https://github.com/chidamodu/blog/blob/gh-pages/_posts/tokenizer_5.png
 
 The oov_token gets a numerical value ('<OOV>' : 1) assigned as other words in the dictionary.
   
-
-![tokenizer_6.png]({{site.baseurl}}/_posts/tokenizer_6.png)
-
+https://github.com/chidamodu/blog/blob/gh-pages/_posts/tokenizer_6.png
 
 The unseen words in the first sentence: **'really'**, **'my'**, and **'turtle'** are assigned a value of 1 as they are considered as oov_token. 
 Similarly the unseen words in the second sentence: **'stay'**, **'in'**, **'shelter'**, **'in'**, **'place'**, and **'due'** are assigned a value of 1.
 
 The test_sequence now comprises values for all the data present. Thanks to oov_token!
 
-
-![tokenizer_7.png]({{site.baseurl}}/_posts/tokenizer_7.png)
+https://github.com/chidamodu/blog/blob/gh-pages/_posts/tokenizer_7.png
 
