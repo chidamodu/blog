@@ -1,7 +1,7 @@
 ---
 published: true
 ---
-# Build a classifier using Spark ML Package
+# Build a Decision Tree Classifier using Spark ML Package
 
 The Spark ML package provides an API for pipelining data transformers, estimators, and model selectors. In this post, I would like to give a high level view of building a decision tree model, setting a pipeline, and required formats to transform the data. 
 
