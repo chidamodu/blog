@@ -7,16 +7,16 @@ We cannot feed a machine learning model or a neural net input data in the form o
 
 It has the following options:
 
--num_words: We can choose the number of unique words in the input text to be considered for encoding. What does this mean? Say, we have quite a large input data with a plentitude of unique words. Instead of creating a dictionary with all the unique words in the input data, we can select the top 100 words. In situations where top words (tops words mean: most frequently occurring words) would suffice to train a model and infer from the trained model using the word encodings (in simple terms encodings mean: numbers that are used to represent words), the num_words option would come in handy.
+- **num_words:** We can choose the number of unique words in the input text to be considered for encoding. What does this mean? Say, we have quite a large input data with a plentitude of unique words. Instead of creating a dictionary with all the unique words in the input data, we can select the top 100 words. In situations where top words (tops words mean: most frequently occurring words) would suffice to train a model and infer from the trained model using the word encodings (in simple terms encodings mean: numbers that are used to represent words), the num_words option would come in handy.
 
 Example:**tokenizer=Tokenizer(num_words=100)**. The tokenizer selects the first 100 words by frequency of their occurrence volume. 
 
--fit_on_texts: It takes the data and tokenizes it. We cannot check the outcome of **tokenizer.fit_on_texts**, because we are able to access the outcome in the form of a dictionary using **word_index**, which is explained in the next bullet point.
+- **fit_on_texts:** It takes the data and tokenizes it. We cannot check the outcome of **tokenizer.fit_on_texts**, because we are able to access the outcome in the form of a dictionary using **word_index**, which is explained in the next bullet point.
 
 Example:**tokenizer.fit_on_texts(sentences)**
 Here sentences represent the input text data.
 
--word_index: This property returns a dictionary with key value pairs where key is a word and value is a token (token here means: a numerical value of some sort) for that word. Every unique word is assigned a distinct number.
+- **word_index:** This property returns a dictionary with key value pairs where key is a word and value is a token (token here means: a numerical value of some sort) for that word. Every unique word is assigned a distinct number.
 
 Example: **word_index=tokenizer.word_index**
 Let’s check out a simple example that demonstrates word_index of the tokenizer fitted on the given input sentences here: 
@@ -39,8 +39,7 @@ To drive the point home, we first initialize the tokenizer, fit it on sentences 
 
 <img src="http://chidamodu.github.io/blog/images//tokenizer_pic2.png">
 
-OOV_token: What happens when we have words in test data that are not seen by the trained model? Well, the unseen words are omitted by the trained model while making inference. In case of numerous unseen words present in the test data, omitting those words result in a huge loss of information. Let’s check the simple illustration below:
-
+- **OOV_token:** What happens when we have words in test data that are not seen by the trained model? Well, the unseen words are omitted by the trained model while making inference. In case of numerous unseen words present in the test data, omitting those words result in a huge loss of information. Let’s check the simple illustration below:
 
 <img src="http://chidamodu.github.io/blog/images//tokenizer_pic 3.png">
 
