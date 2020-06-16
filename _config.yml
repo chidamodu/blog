@@ -7,7 +7,7 @@ description: > # Meta description of Homepage
   as you can imagine. So this site is also to remind me how far I have come and how far I should push myself to create new, 
   awesome products. Hope you will enjoy reading this intentional techie's blog :)"
 baseurl: "/blog" # the subpath of your site, e.g. /blog
-url:"https://chidamodu.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://chidamodu.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 
 # SEO PLUGIN
 social:
