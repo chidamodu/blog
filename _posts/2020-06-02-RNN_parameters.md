@@ -30,7 +30,7 @@ At time step 2, the following happens:
 
 RNN uses the same set of parameters across all the time steps:
 
-![]({{site.baseurl}}/https://github.com/chidamodu/blog/gh-pages/images/RNN.png)
+![]({{/https://github.com}}/chidamodu/blog/images/RNN.png)
 
 Weight matrices and bias at input level:
 	-Weight matrix relating an activation to an input x (it’s represented as Wax in the figure)
