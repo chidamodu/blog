@@ -43,3 +43,4 @@ Weight matrices and bias at output level:
 Weight matrix at the outcome of each time step:
 	-Weight matrix relating an input activation to an output activation at each time step 
 	(it’s represented as Waa in the figure)
+	
