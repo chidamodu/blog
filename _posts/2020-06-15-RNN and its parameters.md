@@ -30,7 +30,8 @@ At time step 2, the following happens:
 
 RNN uses the same set of parameters across all the time steps:
 
-![RNN.jpg]({{site.baseurl}}/blog/images/RNN.png)
+
+<img src="http://chidamodu.github.io/blog/images//RNN.png">
 
 
 Weight matrices and bias at input level:
