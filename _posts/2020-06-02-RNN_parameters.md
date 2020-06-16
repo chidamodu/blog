@@ -34,7 +34,7 @@ Weight matrices and bias at input level:
 	-Weight matrix relating an activation to an input x (it’s represented as Wax in the figure)
 	-Bias related to activation at the input level (it’s represented as ba in the figure)
 
-Weight matrices and bias at output level:
+Weight matrices and bias at output level: 
 	-Weight matrix relating an activation to an output y (it’s represented as Wya in the figure)
 	-Bias relating an activation to an output y (it’s represented as by in the figure)
 
