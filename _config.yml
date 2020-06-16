@@ -62,7 +62,7 @@ exclude:
   - sleek.jpg
 
 include: ['_pages']
-- "_img"
+
 permalink: /:title/
 
 compress_html:
