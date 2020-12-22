@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 # Information bottlenecks in a neural net
 
