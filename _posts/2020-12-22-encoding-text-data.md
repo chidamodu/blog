@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 # Encoding Text Data - a high level
 
