@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 # One Hot Encoding of text data
 
