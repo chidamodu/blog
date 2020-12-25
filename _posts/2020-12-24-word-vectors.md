@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 # Ways to associate a vector with a word
 
