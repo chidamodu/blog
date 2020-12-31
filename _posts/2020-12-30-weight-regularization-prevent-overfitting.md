@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 # How does weight regularization prevent overfitting?
 
