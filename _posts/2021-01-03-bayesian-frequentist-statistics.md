@@ -121,9 +121,8 @@ Well, we are updating our knowledge about A after the first trial. The process o
 **Let’s reframe Bayes**
 With the data fixed, the denominator P(D) serves to normalize the total posterior probability to 1. So we can also express Bayes theorem as:
 
-****P(hypothesis|data) ∝ P(data|hypothesis) * P(hypothesis)
+		**P(hypothesis|data) ∝ P(data|hypothesis)  P(hypothesis)**
 
 This leads to the most elegant form of Bayes theorem in the context of Bayesian updating:
 
-****Posterior ∝ Likelihood * Prior
-
+		**Posterior ∝ Likelihood  Prior**
