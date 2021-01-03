@@ -3,7 +3,6 @@ published: false
 ---
 # Bayesian Vs. Frequentist Statistics
 
-Bayesian Vs. Frequentist Statistics
 
 ## What’s the difference?
 
