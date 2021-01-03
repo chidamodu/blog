@@ -8,6 +8,7 @@ published: true
 
 Let’s consider an example situation where a person has misplaced their cellphone. Now, let’s see how this situation plays under frequentist and bayesian considerations:
 
+
 ## Frequentist:
 The person assumes that they must have misplaced their cellphone somewhere in their home. Because usually, the person has their cellphone, not in silent mode, it would be easy to find their cellphone by calling from another cellphone. Following the assumptions, they decide to ring their cellphone and figure out where the sound of the ringtone comes from. 
 
@@ -20,6 +21,7 @@ p = 10/14
 p ≈ 0.714
 
 In this case, the probability of two heads is (0.714)^2 ≈ 0.51 (because each event is independent we multiply the probabilities). So here we are not updating our knowledge about the probability between the two trials.
+
 
 ## Bayesian:
 Instead of assuming that they must have misplaced their cellphone at home, they start thinking about the places where they had misplaced in the past. Using the prior knowledge they decide to narrow down to a place where it is most likely to find their cellphone. So out of three places: their home, car, and workplace, they decide to start looking for their cellphone in their car as that’s where they had forgetfully placed most often.
@@ -47,12 +49,15 @@ Likewise P(B|D) as:
 
 Before applying Bayes’ theorem, let’s introduce some terminology:
 
+
 **D (or data):** the result of our experiment or the data. In this case the resulting event D = ‘heads’. We think of D as data that provides evidence for or against each hypothesis.
 Hypotheses: we are testing two hypotheses: the coin is type A or B.
+
 
 **Prior probability:** the probability of each hypothesis prior to tossing the coin (collecting data). Since the drawer has 2 coins of type A and 3 of type B and 1 or type C we have 
 P(A) = 0.4
 P(B) = 0.6
+
 
 **Likelihood:** is the probability of data assuming that the hypothesis is true. And hypothesis in this context is whether the coin is Type A or Type B.
 
@@ -63,9 +68,11 @@ In our case the likelihoods are:
 P(D|A)=0.5 (because Type A coins are fair)
 P(D|B)=0.6 (because Type B coins are bent)
 
+
 **Posterior probability:** the probability, posterior to, of each hypothesis given the data from tossing the coin.
 
 P(A|D) and P(B|D) as posterior probabilities. These are what we are going to find using Bayes formula mentioned above.
+
 
 **Calculation:**
 
@@ -111,12 +118,15 @@ B
 
 So from the table, coin B is now the most probable as its probability has increased from a prior probability of 0.6 to a posterior probability of 0.6429. Meanwhile, the probability of type A has decreased from 0.4 to 0.3571.
 
+
 **How does it work?**
 It will make a lot of sense when we do a number of trials, say we repeat tossing a coin, picked at random, 5 times. After every trial, we put the coin back in the drawer.
 Assume we get heads in the first two trials and turns out the coin is Type A. So for the first trial, the prior of A will be 0.4, but for the second trial, the prior of A will change to 0.3571. In other words, the posterior of A in trial one will become prior of A in trial two. 
 
+
 **So what are we doing here**? 
 Well, we are updating our knowledge about A after the first trial. The process of going from the prior probability to the posterior is called Bayesian updating. It uses the data to alter our understanding of the probability of each of the possible hypotheses.
+
 
 **Let’s reframe Bayes**
 With the data fixed, the denominator P(D) serves to normalize the total posterior probability to 1. So we can also express Bayes theorem as:
