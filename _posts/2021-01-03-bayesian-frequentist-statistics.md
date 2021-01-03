@@ -37,12 +37,12 @@ Let A and B be the event that the chosen coin was Type A and Type B. Let D be th
 
 According to Bayes theorem, we can represent P(A|D) as:
 
-****P(A|D) = (P(D|A) * P(A)) / P(D)
+		P(A|D) = (P(D|A) * P(A)) / P(D)
 
 
 Likewise P(B|D) as: 
 
-****P(B|D) = (P(D|B) * P(B)) / P(D)
+		P(B|D) = (P(D|B) * P(B)) / P(D)
 
 
 Before applying Bayes’ theorem, let’s introduce some terminology:
@@ -121,8 +121,8 @@ Well, we are updating our knowledge about A after the first trial. The process o
 **Let’s reframe Bayes**
 With the data fixed, the denominator P(D) serves to normalize the total posterior probability to 1. So we can also express Bayes theorem as:
 
-		**P(hypothesis|data) ∝ P(data|hypothesis)  P(hypothesis)**
+		P(hypothesis|data) ∝ P(data|hypothesis)  P(hypothesis)
 
 This leads to the most elegant form of Bayes theorem in the context of Bayesian updating:
 
-		**Posterior ∝ Likelihood  Prior**
+		Posterior ∝ Likelihood  Prior
