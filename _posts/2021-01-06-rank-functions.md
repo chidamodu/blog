@@ -4,6 +4,7 @@ published: true
 # RANK functions in SQL
 
 **ROW_NUMBER()** 
+
 This assigns a unique number to each row incremented by 1 from one row to the next one. It’s a window function and so it is used with the mandatory OVER() clause to specify which rows within a column or field the function will affect in simplest terms. For advanced specifications, one can use ORDER BY, to control the order in which the rows appear, within the OVER() clause. 
 
 Why do we have the need to enumerate rows with unique numbers?
@@ -29,6 +30,7 @@ But we would like to get a list of the top performers based on the Marks scored 
 
 
 **RANK**
+
 It specifies a rank that’s unique for each row. Sounds pretty similar to ROW_NUMBER! What’s the difference?
 
 Let’s demonstrate that using the same Exam table: We are interested in pulling out the records of all the high scorers. 
@@ -45,6 +47,7 @@ Thus RANK gives Kim and Clark the same ranks based on their scores, but ROW_NUMB
 
 
 **DENSE_RANK**
+
 It also specifies rank for each row, but it operates slightly differently than the RANK. Let’s again check out the top performers:
 
 <img src="http://chidamodu.github.io/blog/images//simple dense rank.png">
