@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 # RANK functions in SQL
 
