@@ -13,44 +13,58 @@ Typically, ROW_NUMBER is used in the SELECT statement with OVER(). As mentioned 
 
 Table Exam has three fields: Studentname, Subject, and Marks.
 
+<img src="http://chidamodu.github.io/blog/images//simple row_number.png">
 
 
 The outcome of the above statement looks like this:
 
+<img src="http://chidamodu.github.io/blog/images//simple row number table.png">
 
 
 Because we are ordering by Marks, it sorts the Marks column in the default ascending order and assigns unique numbers to each resulting row starting from 1. Therefore, Kim and Clark with the same 90 marks, although for different subjects, get different RowNumber. 
 
 But we would like to get a list of the top performers based on the Marks scored by them. We just add DESC keyword, for descending order, with ORDER BY as follows:
 
+<img src="http://chidamodu.github.io/blog/images//row_number_desc orderby.png">
 
-RANK
+
+**RANK**
 It specifies a rank that’s unique for each row. Sounds pretty similar to ROW_NUMBER! What’s the difference?
 
 Let’s demonstrate that using the same Exam table: We are interested in pulling out the records of all the high scorers. 
 
+<img src="http://chidamodu.github.io/blog/images//simple rank.png">
+
+
 The outcome of RANK looks like the following:
 
+<img src="http://chidamodu.github.io/blog/images//rank table outcome.png">
 
 
 Thus RANK gives Kim and Clark the same ranks based on their scores, but ROW_NUMBER gives different numbers because the focus is on assigning unique values to the rows.
 
 
-DENSE_RANK
+**DENSE_RANK**
 It also specifies rank for each row, but it operates slightly differently than the RANK. Let’s again check out the top performers:
+
+<img src="http://chidamodu.github.io/blog/images//simple dense rank.png">
 
 
 The outcome of DENSE_RANK looks like this:
 
+<img src="http://chidamodu.github.io/blog/images//simple dense rank table outcome.png">
 
 
 Like RANK, DENSE_RANK also assigns the same rank for the same values, but it doesn’t skip the following rank. Notice how RANK skipped rank 3 after assigning the same rank 2 to Kim and Clark. DENSE_RANK is intuitive and is what we follow as a standard when designating ranks.
 
 Most often we would like to group people or products, per se, in every department or category that are performing significantly higher. In the context of our example, that translates to finding the top scorers per each subject. We can do that using PARTITION BY. Let’s consider more rows in the Exam table for a better demonstration.
 
+<img src="http://chidamodu.github.io/blog/images//dense_rank partition by and order by desc.png">
+
+
 The output of PARTITION BY looks like this:
 
-
+<img src="http://chidamodu.github.io/blog/images//dense_rank_partitionby.png">
 
 
 DENSE_RANKS initiates ranks for each subject, because of PARTITION BY, and doesn’t skip the following rank as showcased by assigning the same rank 3 to Fiona and Clark for Physics consequently followed by 4 without skipping ranks.
