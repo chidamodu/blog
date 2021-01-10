@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 # Reshaping using Pivot_Table in Pandas
 
