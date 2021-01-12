@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 # SET Operators in SQL
 
