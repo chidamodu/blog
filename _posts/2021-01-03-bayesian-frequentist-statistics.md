@@ -93,28 +93,9 @@ P(B|D) = (P(D|B) * P(B)) / P(D)
        = 0.6429
 
 Let’s put all the values together in a Bayesian table:
-Hypothesis
-(H)
-Prior
-P(H)
-Likelihood
-P(D|H)
-Bayes numerator
-P(D|H) * P(H)
-Is nothing but 
-(prior * likelihood)
-Posterior
-P(H|D)
-A
-0.4
-0.5
-0.2
-0.3571
-B
-0.6
-0.6
-0.36
-0.6429
+
+<img src="http://chidamodu.github.io/blog/images//AB test table.png">
+
 
 So from the table, coin B is now the most probable as its probability has increased from a prior probability of 0.6 to a posterior probability of 0.6429. Meanwhile, the probability of type A has decreased from 0.4 to 0.3571.
 
