@@ -1,7 +1,7 @@
 ---
 published: true
 ---
-# Difference between View and Table
+# Difference between a View and a Table
 
 A table is a database object that can physically store data. So a table can be updated, deleted, and even changed by adding more records.
 
