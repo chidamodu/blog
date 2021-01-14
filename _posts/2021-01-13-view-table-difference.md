@@ -15,11 +15,11 @@ Let’s say we have a complex query involving multiple tables calculating commis
 
 **Benefits**
 
-1.Saving space comes as an inherent advantage as views cannot store any data.
+1. Saving space comes as an inherent advantage as views cannot store any data.
 
-2.It can act as a layer of abstraction and therefore provides a simple and easy usage to end-users hiding the complexities of underlying tables in a database.
+2. It can act as a layer of abstraction and therefore provides a simple and easy usage to end-users hiding the complexities of underlying tables in a database.
 
-3.Can be used to maintain security by allowing the users to access only non-sensitive information, in the views, thereby protecting sensitive data in the tables.
+3. Can be used to maintain security by allowing the users to access only non-sensitive information, in the views, thereby protecting sensitive data in the tables.
 
  
 
