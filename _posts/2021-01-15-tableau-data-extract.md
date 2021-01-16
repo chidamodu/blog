@@ -1,5 +1,5 @@
 ---
-published: false
+published:  true
 ---
 # Tableau Data Extract (TDE)
 
