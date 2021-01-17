@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 # Cross-Validation
 
@@ -12,13 +12,16 @@ It splits the training data into folds and for every fold, it picks a data point
 Benefits of the technique include:
 
 **Testing**
+
 To test how well a predictive model would perform on test data (unseen data) by using a part of the training set and therefore not touching the precious test set. 
 
 
 **Comparing**
+
 To compare and contrast a bunch of predictive models based on their performance in order to pick the best model that’s most fitting to the given data. 
 
 
 **Tuning (hyperparameter)**
+
 Also, the technique is used to find the optimum value of parameters (also called hyperparameters) for a model. Grid Search (in sklearn library) uses cross-validation to find the best value for a parameter.
 
