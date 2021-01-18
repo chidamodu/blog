@@ -14,28 +14,27 @@ This is denoted as:
 
 <img src="http://chidamodu.github.io/blog/images//pic1_combinatorial.png">
 
-
 Remember for k buckets and in a space of n balls, there can only be k-1 bars. So having n balls is analogous to having k-1 bars. Therefore the above term can be written as:
 
 <img src="http://chidamodu.github.io/blog/images//pic2_combinatorial.png">
-
 
 As per the combination formula, we have:
 
 <img src="http://chidamodu.github.io/blog/images//pic3_combinatorial.png">
 
-
 Applying the combination formula to our context of n+k-1 positions and k-1 bars, we have:
 
 <img src="http://chidamodu.github.io/blog/images//pic4_combinatorial.png">
-
 
 Reducing the above formula further we get:
 
 <img src="http://chidamodu.github.io/blog/images//pic5_combinatorial.png">
 
 
+
 Now, let’s apply the above formula and solve the **Count Sorted Vowel Strings** problem on Leetcode.
+
+
 
 **The problem statement**
 
@@ -58,6 +57,7 @@ Input: n = 33
 Output: 66045
 
 
+
 **Solution**
 
 The trick is to recognize that this problem can be solved using our transformed combinatorial formula above. Let’s use the analogy comprising balls, buckets, and bars, from above, to look at the problem. The problem asks to find n-length strings consisting vowels only from this: {‘a’, ‘e’, ‘i’, ‘o’, ‘u’}. If there are only 5 buckets, there can be only 4 bars. Likewise, in the problem there are only 5 vowels and thus there can be only 4 bars. So n represents the n-length strings we have to find in the problem using the 5 vowels. Thus k represents the 5 vowels. Our combinatorial formula becomes:
@@ -70,6 +70,7 @@ The trick is to recognize that this problem can be solved using our transformed 
 <img src="http://chidamodu.github.io/blog/images//python implementation.png">
 
 We want our solution in integer format, so we use the division operator //. This divides the number on its left by the number on its right, rounds down the answer, and returns a whole number.
+
 
 
 **Point to remember**
