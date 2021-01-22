@@ -1,18 +1,21 @@
 ---
-published: false
+published: true
 ---
 # Correlation coefficient
 
 In order to define the correlation coefficient, we have to check out a few concepts.
+
 
 **What is correlation?**
 
 Correlation is a statistical measure that indicates the extent to which two or more variables move together.
 
 
+
 **What is covariance?**
 
-Covariance is another statistical measure that describes the degree to which two variables tend to deviate from their means in similar ways. But covariance is not unitless, which makes it difficult to use it to interpret anything about the relationship between the variables. 
+Covariance is another statistical measure that describes the degree to which two variables tend to deviate from their means in similar ways. But covariance is not unitless, which makes it difficult to use it to interpret anything about the relationship between the variables.
+
 
 
 **Relationship between covariance and correlation coefficient**
