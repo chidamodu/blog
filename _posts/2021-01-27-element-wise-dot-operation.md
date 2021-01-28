@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 # Element-wise and Dot operations
 
