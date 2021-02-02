@@ -4,8 +4,8 @@ published: false
 # GlobalAveragePooling
 
 GlobalPooling operates on spatial information, i.e., location information like edges and corners in image data. It has two options:
-a. Finding averaging
-b. Finding maximum
+- Finding averaging
+- Finding maximum
 
 Let’s talk about the first option, a, finding average. GlobalAveragePooling is an operation that calculates the average of each feature map in the previous layer. It has the following advantages:
 
